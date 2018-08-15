@@ -1,5 +1,5 @@
 body {
-  font: 24px
+  font: 18px
   font-family: 'Rubik', sans-serif;
   margin: 0;
   padding: 0;
@@ -12,12 +12,6 @@ body {
 
 .container {
   width: 70%;
-  margin: auto;
-  overflow: hidden;
-}
-
-.wrapper{
-  width: 60%;
   margin: auto;
 }
 
@@ -60,10 +54,11 @@ header nav {
   float: right;
   margin-top: 20px;
   font-family: 'Rubik', sans-serif;
+  font-weight: 300;
 }
 
 header a:hover {
-  color: #E6622B;
+  color: #ff5252;
 }
 
 header h1 {
@@ -96,51 +91,72 @@ header p {
   margin-top: 100px;
 }
 
-h2 {
+.paragraph_wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+
+}
+
+.wrapper1{
+  width: 74%;
+  margin: auto;
+}
+
+  h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 35px;
   font-weight: 700;
-  color: #3F3C3C;
+  color: #1A1B3A;
   margin-top: 80px;
-  margin-bottom: 0px;
+  margin-bottom: auto;
 }
 
-.wrapper p {
+  p {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
-  color: #3F3C3C;
+  color: #1A1B3A;
+  font-weight: 300;
+  line-height: 28px;
+
+}
+
+.wrapper1 p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  color: #1A1B3A;
   font-weight: 300;
   line-height: 28px;
 }
 
-.container2{
-  width: 60%;
+.deliverable-wrapper {
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   margin: auto;
   background-color: rgba(216, 216, 216, 0.2);
-  min-height: 400px;
-  border-radius: 20px;
+  min-height: 300px;
 }
 
 .box1 {
   float: left;
-  padding-left: 10%;
-  padding-top: 5%;
-  width: 21%;
+  padding-left: 25%;
+  width: 12%;
 }
 
 .box2 {
   float: left;
-  padding-left: 11%;
-  padding-right: 5%;
-  padding-top: 5%;
-  width: 21%;
+  padding-left: 7%;
+  width: 12%;
+
 }
 
 .box3 {
   float: right;
-  padding-right: 10%;
-  padding-top: 5%;
-  width: 17%;
+  padding-right: 25%;
+  width: 10%;
+
 }
 
 #deliverables {
@@ -150,14 +166,15 @@ h2 {
 #deliverables h3 {
   font-size: 24px;
   font-family: 'Rubik', sans-serif;
-  color: #3F3C3C;
+  color: #1A1B3A;
   font-weight: 500;
 }
 
 #deliverables li {
   font-family: 'Rubik', sans-serif;
   line-height: 30px;
-  color: #3F3C3C;
+  color: #1A1B3A;
+  font-weight: 300;
 }
 
 .laptop {
@@ -174,25 +191,68 @@ h2 {
     margin-top: 5%;
 }
 
+#links {
+  text-align:center;
+  margin-top: 2%;
+}
+
+.laptop1 {
+  margin-left: 18%;
+}
+
+.iphone1 {
+  margin-left: 26%;
+  margin-right: 15%;
+}
+
 #user_survey li {
   font-family: 'Rubik', sans-serif;
   line-height: 28px;
   font-size: 18px;
-  color: #3F3C3C;
+  color: #1A1B3A;
+  font-weight: 300;
 }
+
+#user_survey ul {
+  margin-bottom: 5%;
+}
+
+a {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ff5252;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #F58454;
+}
+
+.button:hover i {
+  color: #F58454;
+}
+
+.fa-caret-right {
+  color: #ff5252;
+}
+
+
+
 
 #user_results {
   width: 100%;
-  min-height: 480px;
+  min-height: 470px;
   background-image: url("../images/background2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.container3 {
-  width: 60%;
+.actual_results {
+  width: 57%;
   margin: auto;
   padding-top: 5%;
 }
@@ -223,24 +283,24 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  margin-top: 10%;
 }
 
 .usersflow {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 75%;
 }
 
 #userstory {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  width: 100%;
+  width: 80%;
   background-color: rgba(216, 216, 216, 0.2);
   padding-top: 1.5%;
   padding-bottom: 5%;
+  border-radius: 20px;
 
 }
 
@@ -248,7 +308,7 @@ h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: #3F3C3C;
+  color: #1A1B3A;
   margin-top: 5%;
 }
 
@@ -256,53 +316,86 @@ h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #3F3C3C;
+  color: #1A1B3A;
   margin-bottom: 4%;
 }
 
+#userstory span {
+  font-weight: 500;
+}
+
+.logo2,
+.key {
+  font-weight: 500;
+}
+
+
+
 .container4 {
-  width: 100%;
+  width: 80%;
   margin: auto;
   background-color: rgba(216, 216, 216, 0.2);
+  margin-top: 5%;
+  border-radius: 20px;
+}
+.container5 {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(216, 216, 216, 0.2);
+  border-radius: 20px;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-top: 5%;
 }
 
 .wireframe1,
 .wireframe3,
 .wireframe4 {
   display: inline-block;
-  margin-left: 4.5%;
-  width: 45%;
+  margin-left: 5%;
+  width: 44%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
+  margin-bottom: 1.5%;
+}
+
+.wireframe1,
+.wireframe2 {
+  margin-top: 5%;
 }
 
 .wireframe2 {
   float: right;
-  margin-right: 4.5%;
-  width: 45%;
+  margin-right: 5%;
+  width: 44%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
 }
 
-.wrapper2 {
-  width: 43%;
-  margin: auto;
+.wrapper2,
+.wireframe-explain {
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Rubik', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
-  color: #3F3C3C;
-  line-height: 26px;
+  color: #1A1B3A;
+  line-height: 28px;
+}
+
+.wireframe-explain {
+  margin-top: 4%;
+  padding-bottom: 5%;
 }
 
 #Analyzing_results h3 {
   font-size: 20px;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 20px;
 }
 
 .results1 {
   width: 49.9%;
   float: left;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 5%;
   border-radius: 20px 0 0 20px;
 }
@@ -310,7 +403,7 @@ h2 {
 .results2 {
   width: 49.9%;
   float: right;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-bottom: 5%;
   border-radius: 0px 20px 20px 0px;
 }
@@ -327,11 +420,11 @@ h2 {
 }
 
 .highfidelity1 li {
-  margin: 30px 0;
+  margin: 15px 0;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #3F3C3C;
+  color: #1A1B3A;
   line-height: 26px;
 }
 
@@ -339,112 +432,83 @@ h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #3F3C3C;
+  color: #1A1B3A;
 }
 
 .one {
   float: left;
-  width: 45%;
+  width: 44%;
   margin-left: 5%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
 
 }
 
 .two {
   float: right;
-  width: 45%;
+  width: 44%;
   margin-right: 5%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
 
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  
 }
 
 .name1 {
   float: left;
-  width: 45%;
-  margin-left: 7%;
+  width: 44%;
+  margin-left: 5%;
 
 }
 
 .name2 {
   float: right;
-  width: 45%;
-  margin-right: 3%;
+  width: 44%;
+  margin-right: 5%;
 }
 
 .highfidelity1 h4 {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: #3F3C3C;
+  color: #6BA6D3;
   margin-top: 5%;
 }
 
 .result1 {
   float: left;
-  width: 38%;
-  margin-left: 5%;
+  width: 34%;
+  margin-left: 7%;
 }
 
 .result2 {
   float: right;
-  width: 38%;
-  margin-right: 9%;
-  margin-top: -7%;
+  width: 34%;
+  margin-right: 10%;
 }
 
 .result3 {
   float: left;
-  width: 38%;
-  margin-left: 5%;
-  margin-top: -28%;
+  width: 34%;
+  margin-left: 7%;
+  margin-bottom: 5%;
 }
 
 .result4 {
   float: right;
-  width: 38%;
-  margin-right: 9%;
-}
-
-.result5 {
-  float: left;
-  width: 38%;
-  margin-left: 5%;
-}
-
-.result6 {
-  float: right;
-  width: 38%;
-  margin-right: 9%;
-  margin-top: -1%;
-}
-
-.result7 {
-  float: left;
-  width: 38%;
-  margin-left: 5%;
-}
-
-.result8 {
-  float: right;
-  width: 38%;
-  margin-right: 9%;
-  margin-top: -7%;
-}
-.result9 {
-  float: left;
-  width: 38%;
-  margin-left: 5%;
-}
-
-.result10 {
-  float: right;
-  width: 38%;
-  margin-right: 9%;
+  width: 34%;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
 
 .brand {
 font-family: 'Rubik', sans-serif;
-font-size: 25px;
+font-size: 20px;
 font-weight: 500;
-color: #3F3C3C;
+color: #1A1B3A;
 line-height: 26px;
 }
 
@@ -452,9 +516,9 @@ line-height: 26px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 3%;
-  margin-bottom: 5%;
+  width: 55%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .phone {
@@ -525,10 +589,22 @@ line-height: 26px;
   margin-top: 2%;
 }
 
+.keylearning {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  color: #1A1B3A;
+  font-weight: 300;
+  line-height: 28px;
+}
 
+#KeyLearnings ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
 
-
-
+#KeyLearnings li {
+  margin-bottom: 30px;
+}
 
 
 
